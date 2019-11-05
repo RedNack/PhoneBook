@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: burlywood;
+
+}
+.menu {
+    display: block;
+    margin: 0;
+    padding: 0;
+
+}
+.menu li {
+    float: left;
+    display: block;
+    margin-right: 50px;
+    margin-top: 0px;
+}
+.menu li a {
+    color: azure;
+    background: darkred;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 23px;
+    min-width: 150px;
+
+}
+.menu a:hover{
+    background: firebrick;
+}
+nav {
+    background: darkred;
+    float: right;
+}
+nav ul{
+    position: relative;
+    list-style: none;
+}
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 64px;
+}
+/* отображаем выпадающий список при наведении */
+nav ul li:hover > ul {
+    display:inherit;
+}
+
+nav ul ul li {
+    min-width:150px;
+    float:none;
+    display:list-item;
+    position: relative;
+}
+
+.leftLogo{
+    float: left;
+    height: 50%;
+    width: 100%;
+}
+.mainDiv{
+    display: flex;
+    height: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.left{
+    float: left;
+    height: 90%;
+    width: 300px;
+}
+.right{
+    float: left;
+    height: 90%;
+    flex-grow: 1;
+    width:  available;
+}
+.rightNavigation{
+    float: left;
+    height: 65px;
+    width: 100%;
+    background: darkred;
+}
+.rightContent{
+    float: left;
+    height: 70%;
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+input {
+    height: 40px;
+    width: 240px;
+    background: khaki;
+}
+button {
+    height: 50px;
+    width: 240px;
+    margin-top: 10px;
+}

@@ -1,0 +1,48 @@
+.form {
+    margin: 0 auto;
+    height: 40%;
+    width: 40%;
+}
+
+.contactForm {
+    width: 30%;
+    float: left;
+}
+
+.numberForm {
+    width: 37%;
+    float: left;
+}
+
+.numberForm button {
+    margin-top: 0px;
+    width: 80px;
+    height: 30px;
+}
+
+.numberForm input {
+    width: 100px;
+    height: 30px;
+}
+
+.numberForm select {
+    width: 100px;
+    height: 30px;
+    background: khaki;
+}
+
+
+.imageContact {
+    width: 30%;
+    float: left;
+}
+
+
+.importForm {
+
+}
+
+.importForm button {
+    float: right;
+    width: 100%;
+}

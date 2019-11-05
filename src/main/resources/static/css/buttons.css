@@ -1,0 +1,91 @@
+.button1{
+    font:bold 23px Tahoma, Geneva, sans-serif;
+    color:#ffffff;
+    background:darkred;
+    border:0px solid #ffffff;
+    text-shadow:0px -1px 1px #222222;
+    box-shadow:2px 2px 5px #000000;
+    -moz-box-shadow:2px 2px 5px #000000;
+    -webkit-box-shadow:2px 2px 5px #000000;
+    border-radius:10px 10px 10px 10px;
+    -moz-border-radius:10px 10px 10px 10px;
+    -webkit-border-radius:10px 10px 10px 10px;
+    width:200px;
+    cursor:pointer;
+    margin:0 auto;
+}
+.button1:active{
+    cursor:pointer;
+    position:relative;
+    background: firebrick;
+    top:2px;
+}
+
+.button2{
+    font:bold 20px Tahoma, Geneva, sans-serif;
+    color:#ffffff;
+    background:darkred;
+    border:0px solid #ffffff;
+    text-shadow:0px -1px 1px #222222;
+    box-shadow:2px 2px 5px #000000;
+    -moz-box-shadow:2px 2px 5px #000000;
+    -webkit-box-shadow:2px 2px 5px #000000;
+    border-radius:10px 10px 10px 10px;
+    -moz-border-radius:10px 10px 10px 10px;
+    -webkit-border-radius:10px 10px 10px 10px;
+    width:100%;
+    cursor:pointer;
+    margin-top: 5px;
+}
+.button2:active{
+    cursor:pointer;
+    position:relative;
+    background: firebrick;
+    top:2px;
+}
+
+.button3{
+    font:bold 20px Tahoma, Geneva, sans-serif;
+    color:#ffffff;
+    background:darkred;
+    border:0px solid #ffffff;
+    text-shadow:0px -1px 1px #222222;
+    box-shadow:2px 2px 5px #000000;
+    -moz-box-shadow:2px 2px 5px #000000;
+    -webkit-box-shadow:2px 2px 5px #000000;
+    border-radius:10px 10px 10px 10px;
+    -moz-border-radius:10px 10px 10px 10px;
+    -webkit-border-radius:10px 10px 10px 10px;
+    width:240px;
+    cursor:pointer;
+    margin-top: 5px;
+}
+.button3:active{
+    cursor:pointer;
+    position:relative;
+    background: firebrick;
+    top:2px;
+}
+.small_button{
+    font:bold 10px Tahoma, Geneva, sans-serif;
+    color:#ffffff;
+    background:darkred;
+    border:0px solid #ffffff;
+    text-shadow:0px -1px 1px #222222;
+    box-shadow:2px 2px 5px #000000;
+    -moz-box-shadow:2px 2px 5px #000000;
+    -webkit-box-shadow:2px 2px 5px #000000;
+    border-radius:10px 10px 10px 10px;
+    -moz-border-radius:10px 10px 10px 10px;
+    -webkit-border-radius:10px 10px 10px 10px;
+    width:240px;
+    cursor:pointer;
+    margin-top: 5px;
+}
+.small_button:active{
+    cursor:pointer;
+    position:relative;
+    background: firebrick;
+    top:2px;
+}
+
